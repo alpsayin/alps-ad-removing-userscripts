@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Harika Dizi Ad Remover
 // @namespace  @alpsayin
-// @version    0.2
+// @version    0.3
 // @description  removes and breaks the links of all ads in harikadizi.net
 // @match      http://www.harikadizi.net/*
 // @match      http://www.harika-dizi.net/*
@@ -40,6 +40,7 @@ addGlobalStyle('#ust2 { display:none!important; }');
 addGlobalStyle('#toolbarrx { display:none!important; }');
 addGlobalStyle('#sidebarreklam { display:none!important; }');
 addGlobalStyle('#reklamlar { display:none!important; }');
+addGlobalStyle('#alt1 { display:none!important; }');
 addGlobalStyle('#alt2 { display:none!important; }');
 addGlobalStyle("div[class^='reklam'],div[class*=' reklam']{ display:none!important; } }");
 removeExternalLinks();
